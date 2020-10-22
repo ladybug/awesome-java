@@ -299,6 +299,7 @@ _Libraries that help to realize the [Inversion of Control](https://en.wikipedia.
 - [Governator](https://github.com/Netflix/governator) - Extensions and utilities that enhance Google Guice.
 - [Guice](https://github.com/google/guice) - Lightweight and opinionated framework that completes Dagger.
 - [HK2](https://javaee.github.io/hk2/) - Lightweight and dynamic dependency injection framework.
+- [Inject](https://avaje.io/inject/)
 - [JayWire](https://github.com/vanillasource/jaywire) - Lightweight dependency injection framework. (LGPL-3.0-only)
 
 ### Development
@@ -326,6 +327,7 @@ _Libraries and frameworks for writing distributed and fault-tolerant application
 - [Atomix](https://atomix.io) - Fault-tolerant distributed coordination framework.
 - [Axon](https://axoniq.io) - Framework for creating CQRS applications.
 - [Dropwizard Circuit Breaker](https://github.com/mtakaki/dropwizard-circuitbreaker) - Circuit breaker design pattern for Dropwizard. (GPL-2.0-only)
+- [ErrorProne](https://errorprone.info/index)
 - [Failsafe](https://github.com/jhalterman/failsafe) - Simple failure handling with retries and circuit breakers.
 - [Hazelcast](https://github.com/hazelcast/hazelcast) - Highly scalable in-memory datagrid with a free open-source version.
 - [JGroups](http://www.jgroups.org) - Toolkit for reliable messaging and cluster creation.
@@ -364,6 +366,7 @@ _Libraries that assist with processing office document formats._
 - [Apache POI](https://poi.apache.org) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
 - [documents4j](https://documents4j.com/#/) - API for document format conversion using third-party converters such as MS Word.
 - [docx4j](https://www.docx4java.org/trac/docx4j) - Create and manipulate Microsoft Open XML files.
+- [Fastexcel](https://github.com/dhatim/fastexcel)
 - [zerocell](https://github.com/creditdatamw/zerocell) - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.
 
 ### Financial
@@ -450,6 +453,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 - [Apache HttpComponents](https://hc.apache.org/) - A toolset of low level Java components focused on HTTP and associated protocols.
 - [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
 - [Feign](https://github.com/OpenFeign/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
+- [HTTP](https://avaje.io/http/)
 - [methanol](https://github.com/mizosoft/methanol) - HTTP client extensions library.
 - [restQL-java](https://github.com/b2wdigital/restQL-java) - Microservice query language that fetches information from multiple services.
 - [Retrofit](https://square.github.io/retrofit/) - Typesafe REST client.
@@ -480,6 +484,7 @@ _Integrated development environments that try to simplify several aspects of dev
 _Libraries that assist with the creation, evaluation or manipulation of graphical images._
 
 - [Imgscalr](https://github.com/rkalla/imgscalr) - Simple, efficient and hardware-accelerated image-scaling library implemented in pure Java 2D.
+- [RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap)
 - [Tess4J](https://github.com/nguyenq/tess4j) - JNA wrapper for Tesseract OCR API.
 - [Thumbnailator](https://github.com/coobird/thumbnailator) - High-quality thumbnail generation library.
 - [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins that extend the number of supported image file formats.
@@ -609,10 +614,12 @@ _Tools for creating and managing microservices._
 - [consul-api](https://github.com/Ecwid/consul-api) - Client for the Consul API: a distributed, highly available and datacenter-aware registry/discovery service.
 - [Eureka](https://github.com/Netflix/eureka) - REST-based service registry for resilient load balancing and failover.
 - [Helidon](https://helidon.io) - Two-style approach for writing microservices: Functional-reactive and as an implementation of MicroProfile.
+- [JPort](https://jwork.org/jport/)
 - [Micronaut](https://micronaut.io) - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.
 - [Nacos](https://nacos.io) - Dynamic service discovery, configuration and service management platform for building cloud native applications.
 - [Quarkus](https://quarkus.io) - Kubernetes stack tailored for the HotSpot and Graal VM.
 - [Sentinel](https://github.com/alibaba/Sentinel) - Flow control component enabling reliability, resilience and monitoring for microservices.
+- [Vertx](https://vertx.io/)
 
 ### Miscellaneous
 
@@ -670,6 +677,7 @@ _Tools that monitor applications in production._
 - [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and send them to a database.
 - [Datadog ![c]](https://github.com/DataDog/dd-trace-java) - Modern monitoring & analytics.
 - [nudge4j](https://github.com/lorenzoongithub/nudge4j) - Remote developer console from the browser for Java 8 via bytecode injection.
+- [Open-Telemetry](https://github.com/open-telemetry/opentelemetry-java)
 - [Pinpoint](https://github.com/naver/pinpoint) - Open-source APM tool.
 - [Prometheus](https://github.com/prometheus/client_java) - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.
 - [SPM ![c]](https://github.com/sematext/sematext-agent-java) - Performance monitor with distributing transaction tracing for JVM apps.
@@ -927,6 +935,7 @@ _Libraries that handle serialization with high efficiency._
 - [Kryo](https://github.com/EsotericSoftware/kryo) - Fast and efficient object graph serialization framework.
 - [MessagePack](https://github.com/msgpack/msgpack-java) - Efficient binary serialization format.
 - [PHP Serializer](https://github.com/marcospassos/java-php-serializer) - Serializing objects in the PHP serialization format.
+- [Protostuff](https://github.com/protostuff/protostuff)
 
 ### Server
 
@@ -1083,6 +1092,7 @@ _Frameworks that handle the communication between the layers of a web applicatio
 - [Blade](https://github.com/lets-blade/blade) - Lightweight, modular framework that aims to be elegant and simple.
 - [Bootique](https://bootique.io) - Minimally opinionated framework for runnable apps.
 - [Firefly](http://www.fireflysource.com) - Asynchronous framework for rapid development of high-performance web application.
+- [Javalin](https://github.com/tipsy/javalin)
 - [Jooby](http://www.jooby.org) - Scalable, fast and modular micro-framework that offers multiple programming models.
 - [Ninja](http://www.ninjaframework.org) - Full-stack web framework.
 - [Pippo](http://www.pippo.ro) - Small, highly modularized, Sinatra-like framework.

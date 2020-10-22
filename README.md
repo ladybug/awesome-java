@@ -998,8 +998,10 @@ _Provide environments to run tests for a specific use case._
 - [Gatling](https://gatling.io) - Load testing tool designed for ease of use, maintainability and high performance.
 - [JUnit](https://junit.org/junit5/) - Common testing framework.
 - [jqwik](https://jqwik.net) - Engine for property-based testing built on JUnit 5.
+- [MockNeat](https://www.mockneat.com/)
 - [Pact JVM](https://github.com/DiUS/pact-jvm) - Consumer-driven contract testing.
 - [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.
+- [Spock Framework](http://spockframework.org/)
 
 #### Matchers
 
